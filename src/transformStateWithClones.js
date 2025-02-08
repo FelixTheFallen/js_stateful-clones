@@ -30,6 +30,7 @@ function transformStateWithClones(state, actions) {
       default:
         break;
     }
+
     transformationsLongList.push({ ...newState });
   }
 
